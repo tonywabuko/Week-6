@@ -1,0 +1,56 @@
+pip install qiskit
+from qiskit import QuantumCircuit, Aer, execute
+
+# Create a 2-qubit quantum circuit
+qc = QuantumCircuit(2)
+
+# Apply a Hadamard gate to qubit 0 to create superposition
+qc.h(0)
+
+# Apply a CNOT gate for entanglement
+qc.cx(0, 1)
+
+# Add measurement
+qc.measure_all()
+
+# Simulate the circuit
+simulator = Aer.get_backend('qasm_simulator')
+result = execute(qc, simulator, shots=1024).result()
+counts = result.get_counts()
+
+print("Measurement Results:", counts)
+qc.draw('mpl')
+
+
+
+
+
+
+
+What it does:
+
+Creates superposition and entanglement, key concepts in quantum computing.
+
+Runs the circuit and returns the probability distribution of outcomes.
+
+💡 Application: Faster Drug Discovery
+Problem:
+AI models in drug discovery simulate molecular structures and interactions. However, classical computers struggle with quantum-level interactions, such as electron behaviors in large molecules.
+
+Quantum Solution:
+
+Quantum circuits like the Variational Quantum Eigensolver (VQE) can simulate molecular energy states more efficiently than classical methods.
+
+When combined with AI, this helps identify optimal drug compounds faster and more accurately.
+
+Example:
+
+AI narrows down thousands of molecules.
+
+Quantum computers evaluate binding energies or reaction pathways.
+
+The result is a shorter drug development cycle and reduced R&D costs.
+
+✅ Conclusion:
+By simulating quantum circuits on IBM Quantum Experience and combining them with AI, we open the door to solving complex scientific problems like drug discovery exponentially faster than traditional approaches.
+
