@@ -1,0 +1,44 @@
+QUESTION 1
+1. Essay Questions
+
+
+Q1: Explain how Edge AI reduces latency and enhances privacy compared to cloud-based AI. Provide a real-world example (e.g., autonomous drones).
+Edge AI refers to deploying artificial intelligence models directly on local devices (e.g., smartphones, drones, cameras) rather than relying solely on centralized cloud servers. This localized approach significantly reduces latency because data processing happens near the source, eliminating the delay associated with transmitting data to the cloud and waiting for a response. For instance, in real-time applications such as autonomous drones, instant decision-making is critical for tasks like obstacle avoidance or target tracking. Edge AI enables these drones to process visual data on-device and act immediately without waiting for cloud feedback.
+
+Additionally, Edge AI enhances privacy by keeping sensitive data on the device. In sectors like healthcare or surveillance, sending personal or video data to the cloud raises privacy and compliance concerns. With Edge AI, patient information or facial recognition data can be processed locally, reducing exposure to potential data breaches.
+
+Example: DJI's autonomous drones use on-device AI to avoid obstacles and track subjects, ensuring real-time responsiveness and protecting footage from being uploaded unnecessarily to external servers.
+
+Q2: Compare Quantum AI and classical AI in solving optimization problems. What industries could benefit most from Quantum AI?
+Quantum AI merges quantum computing with artificial intelligence to tackle problems that are computationally intensive for classical AI systems. While classical AI relies on traditional binary systems (0s and 1s), quantum computing uses quantum bits (qubits) that can exist in multiple states simultaneously (superposition), allowing for massively parallel computations.
+
+In optimization problems—like route planning, supply chain logistics, or drug molecule design—classical AI often struggles with exponential possibilities. Quantum AI can explore these complex solution spaces more efficiently through quantum annealing and quantum machine learning, potentially finding optimal solutions faster.
+
+Industries that could benefit most include:
+
+Logistics and Transportation: For route optimization and scheduling (e.g., FedEx, DHL).
+
+Pharmaceuticals: Drug discovery through simulation of molecular interactions.
+
+Finance: Portfolio optimization and fraud detection.
+
+Energy: Grid optimization and smart energy distribution.
+
+Although still in early stages, Quantum AI holds promise for solving problems currently beyond the reach of classical systems.
+
+Q3: Discuss the societal impact of Human-AI collaboration in healthcare. How might it transform roles like radiologists or nurses?
+Human-AI collaboration in healthcare is reshaping how medical professionals work, offering enhanced efficiency, accuracy, and patient outcomes. Rather than replacing healthcare workers, AI tools augment human capabilities, allowing professionals to focus on more complex or empathetic aspects of care.
+
+For radiologists, AI can rapidly analyze medical images (like X-rays or MRIs) to highlight potential anomalies, reducing diagnostic time and increasing accuracy. This enables radiologists to prioritize complex cases and make more informed decisions. Rather than manually reviewing thousands of scans, they can act as overseers who validate and interpret AI-generated insights.
+
+For nurses, AI-powered systems can streamline administrative tasks (like patient charting or medication tracking) and provide real-time patient monitoring using wearable sensors. This reduces burnout and frees nurses to spend more time on patient-centered care, such as emotional support and personalized health education.
+
+Societal impacts include:
+
+Improved healthcare access, especially in underserved regions via AI-powered diagnostics.
+
+Reduced medical errors and faster treatment delivery.
+
+Re-skilling needs as professionals adapt to working alongside intelligent systems.
+
+Overall, human-AI collaboration is driving a shift toward a more data-driven, patient-centric healthcare system.
