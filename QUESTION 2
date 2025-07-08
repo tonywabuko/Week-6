@@ -1,0 +1,20 @@
+2. Case Study Critique: AI in Smart Cities
+Topic: AI-IoT for Traffic Management
+Analysis:
+
+Integrating Artificial Intelligence (AI) with the Internet of Things (IoT) in traffic systems allows smart cities to monitor, predict, and respond to urban mobility challenges in real time. AI algorithms analyze data collected from IoT devices—such as traffic cameras, GPS sensors, and smart lights—to optimize traffic flow, reduce congestion, and lower emissions.
+
+Improvements to Urban Sustainability:
+Reduced carbon emissions: By dynamically adjusting traffic lights to reduce idle times and prevent traffic jams, vehicles spend less time on the road, cutting down CO₂ emissions.
+
+Efficient public transport: AI can prioritize buses or emergency vehicles at intersections, improving reliability and safety.
+
+Data-driven infrastructure planning: Insights from traffic patterns help city planners make informed decisions on road expansions, pedestrian zones, or bike lanes.
+
+Two Key Challenges:
+Data Security & Privacy: IoT devices collect vast amounts of real-time data, including vehicle movements and personal travel patterns. Without strong encryption and access controls, this data is vulnerable to cyberattacks or misuse.
+
+System Interoperability: Integrating different AI and IoT systems from multiple vendors can be difficult. Without standardized protocols, cities may face fragmented systems that hinder scalability and maintenance.
+
+
+
